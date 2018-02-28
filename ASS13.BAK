@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	char ch='a';
+	clrscr();
+	if(isalpha(ch))
+		printf("\n Alphabet");
+	else
+		printf("\n Not alphabet");
+       getch();
+}

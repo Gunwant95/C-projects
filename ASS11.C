@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int a[]={11,3,4,5};
+	int i;
+	char ch[]={'a','s','d','a'};
+	char *a3="AMAR";
+	char cp[]="KAPADE";
+	clrscr();
+	for(i=0;i<4;i++)
+	{
+		printf("\t a3[i]=%c",a3[i]);
+		printf("\t cp[i]=%c",cp[i]);
+		printf("\t ch[i]=%c",ch[i]);
+		printf("\t a[i]=%d",a[i]);
+		printf("\n");
+	}
+	getch();
+}

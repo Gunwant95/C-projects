@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+
+	int a,*p,**c;
+	a=10;
+	p=&a;
+	c=&p;
+	getch();
+}

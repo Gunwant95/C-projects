@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	char ch[]="ramA";
+	int i=0;
+	clrscr();
+	while(ch[i]!='\0')
+	{
+		printf("%c",ch[i]);
+		i++;
+	}
+}
